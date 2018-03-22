@@ -4,24 +4,24 @@
 Your task is to write a smart contract that creates your own [ERC20 token](https://en.wikipedia.org/wiki/ERC20) and build a small web wallet [Dapp](https://ethereum.stackexchange.com/questions/383/what-is-a-dapp) for it, using [React](https://reactjs.org).
 
 ## The Process
-
-1. Fork this repo
-1. In your forked repo, write a smart contract that implements the [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)
+1. Create a new repo wherever you like. Can be GitHub/GitLab/Bitbucket, doesn't matter.
+1. In your repo, write a smart contract that implements the [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)
 1. Deploy your smart contract to a testnet of your choice
-1. In your forked repo, create a new React app
-1. Create a pull request from your fork into this original repository.
-1. In your pull request description, please add a section on how to test the features you have built. Feel free to add additional thoughts, e.g. why you chose certain libraries or why you implemented a feature in a certain way etc.
-1. Mention @chapati23 or @mattgstevens in the pull request description to let us know you're ready for review. Alternatively, send us an email to dev@brickblock.io
+1. In your repo, create a new React app
+1. Create a README.md explaining how to test the features you have built. Feel free to add additional thoughts, e.g. why you chose certain libraries or why you implemented a feature in a certain way etc.
+1. Send us an email to dev@brickblock.io when you're ready to have it reviewed
 
 ## Acceptance Criteria
 * Your smart contract has been deployed to either the Ropsten, Kovan or Rinkeby testnet
 * Your smart contract implements the [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)
-* Your Dapp should be easy to install and run locally (e.g. [create-react-app](https://github.com/facebook/create-react-app))
+* Your Dapp should be easy to install and run locally
 * Your Dapp should be able to display the token balance of your ERC20 token for a given Ethereum address
 
 ## Bonus Round (not required but nice-to-have)
-* Your Dapp could work together with MetaMask and display the token balance of the currently active MetaMask account
-* Your Dapp could have a button that can transfer tokens from the currently active MetaMask account to another address
+* Display the token balance of the currently active MetaMask account
+* Add a button to transfer tokens from the currently active MetaMask account to another address
+* Dockerize the app
+* Deploy the app somewhere
 * Anything else you could think of that would be cool for a web wallet to do. Surprise us…
 
 ## Rules
