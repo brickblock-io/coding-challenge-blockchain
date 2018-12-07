@@ -16,26 +16,22 @@ Your task is to write a smart contract that creates your own [ERC20-based token]
 * Your smart contract implements the [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)
 * Your Dapp should be easy to install and run locally
 * Your Dapp should at least be able to display the token balance of your ERC20 token for a given Ethereum address
+* Code Quality - The code is clean, well-structured and easy to understand 
 
 ## Bonus Round (not required but nice-to-have)
 * Display the token balance of the currently active MetaMask account
 * Add a button to transfer tokens from the currently active MetaMask account to another address
+* UX - Your app is easy to use and works well
+* UI - Your app looks great
+* Set up a CI pipeline for enforcing code quality e.g. eslint, flow, prettier and solium
 * Dockerize the app
 * Deploy the app somewhere
 * Anything else you could think of that would be cool for a web wallet to do. Surprise us…
+* Add unit tests
+* Add end-to-end tests
 
 ## Rules
 There are not many rules, really. It's all about the result. However, here are a few clarifications:
 
 * Feel free to use as many 3rd party libraries or contracts as you'd like. For example, it's fine to use truffle boxes or [zeppelin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity). However, if you just drop in an empty ERC20 contract from OpenZeppelin: We won't be impressed.
-* It’s ok and even encouraged to look for inspiration elsewhere but if you're taking the lazy way of just copy-and-pasting CodePen snippets: We won't be impressed.
-
-## How we're evaluating the result
-Prioritised from most important to least important, here are our evaluation criteria:
-
-1. Feature Completeness: Does your Dapp fulfil all acceptance criteria?
-1. UX: Is the Dapp easy to understand and use?
-1. Code Quality: Is the code clean, well-structured and easy to understand?
-1. The extra mile: Did you write tests? Are code quality tools such as eslint, flow, prettier or solium in place? Is there documentation on how to get the app running?
-
-You do not need to hit all points, but obviously, the more the better :)
+* It’s ok and even encouraged to look for inspiration elsewhere but if you're taking the lazy way of just copy-and-pasting CodePen snippets: We’ll know.
